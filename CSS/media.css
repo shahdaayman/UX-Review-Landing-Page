@@ -1,0 +1,285 @@
+/* ===========================Media Query============================= */
+/* @media screen and (max-width: 639px) {
+
+}
+
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+} */
+
+/* ===========================Media Query============================= */
+@media screen and (max-width: 767px){
+/*==========Header Section=========== */
+  nav .container {
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    position: fixed;
+  }
+
+  nav .links ul {
+    display: none;
+}
+
+  nav .right-section button {
+    display: none;
+}
+
+  .hero {
+    height: auto;
+    padding-top: 100px; 
+  }
+
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+    padding: 15px;
+    margin: 20px 0;
+  }
+
+  .hero-content .btn-start-reading,
+  .hero-content .btn-watch-intro {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 80%;
+    transform: rotate(0);
+    margin-bottom: 80px;
+    margin-top: 20px;
+  }
+
+  .left-rhombus,
+  .right-rhombus {
+    display: none;
+  }
+
+
+  /*=============Latest Article Section===========*/
+    .latest-article-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .latest-article-section .left-section {
+    width: 100%;
+  }
+
+  .latest-article {
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .latest-article .image {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .latest-article img {
+    width: 100%;
+  }
+
+  .article-info {
+    text-align: center;
+  }
+
+  .article-info h2 {
+    font-size: 20px;
+  }
+
+  .article-info p {
+    font-size: 15px;
+  }
+
+  .info {
+    justify-content: center;
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .latest-article-section .left-section .load-more-btn button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+.latest-article-section .container .right-section{
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .right-section .trending-now,
+  .right-section .categories-box {
+    width: 90%;
+    margin: 0 auto 30px;
+  }
+
+  .right-section .trending-now h3,
+  .right-section .categories-box h3 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .right-section .trending-now .content .details p {
+    font-size: 16px;
+  } 
+}
+
+/*================================================================================*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+/*==========Header Section=========== */
+ nav .container {
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    position: fixed;
+  }
+
+  nav .links ul {
+    display: none;
+}
+
+  nav .right-section button {
+    display: none;
+}
+
+    .hero {
+    height: auto;
+  }
+
+  .hero .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-content {
+    width: 80%;
+  }
+
+  .hero-content h1 {
+    font-size: 60px;
+  }
+
+  .hero-image {
+    width: 60%;
+    margin: 50px 0;
+  }
+
+  .hero-content .btn-start-reading,
+  .hero-content .btn-watch-intro {
+    width: 45%;
+  }
+
+    .left-rhombus{
+        margin-top: 100px;
+    }
+
+
+  /*=============Latest Article Section===========*/
+  .latest-article-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .latest-article-section .left-section {
+    width: 60%;
+  }
+
+  .latest-article {
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .latest-article .image {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .latest-article img {
+    width: 100%;
+  }
+
+  .article-info {
+    text-align: center;
+  }
+
+  .article-info h2 {
+    font-size: 20px;
+  }
+
+  .article-info p {
+    font-size: 15px;
+  }
+
+  .info {
+    justify-content: center;
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .latest-article-section .left-section .load-more-btn button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+.latest-article-section .container .right-section{
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .right-section .trending-now,
+  .right-section .categories-box {
+    width: 90%;
+    margin: 0 auto 30px;
+  }
+
+  .right-section .trending-now h3,
+  .right-section .categories-box h3 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .right-section .trending-now .content .details p {
+    font-size: 16px;
+  } 
+
+}
+
