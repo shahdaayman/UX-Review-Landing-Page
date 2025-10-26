@@ -83,7 +83,6 @@
     display: none;
   }
 
-
   /*=============Latest Article Section===========*/
     .latest-article-section .container {
     flex-direction: column;
@@ -156,9 +155,6 @@
     font-size: 16px;
   } 
 
-
-
-
   /*=============Meet The Author Section===========*/
    .meet-author-section .author-header h2 {
     font-size: 28px;
@@ -199,6 +195,76 @@
 
   .author-left-rhombus,  .author-right-rhombus{
     display: none;
+  }
+
+  /*=============JOIN THE REBELLION  Section===========*/
+    .join-rebellion-section .rebellion-content {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  .rebellion-content .rebellion-left-section,
+  .rebellion-content .rebellion-right-section {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .rebellion-content .rebellion-left-section h3,
+  .rebellion-content .rebellion-right-section h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .rebellion-content .rebellion-left-section p {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .rebellion-left-section .features-list .feature {
+    align-items: flex-start;
+  }
+
+  .rebellion-left-section .features-list .feature span {
+    font-size: 16px;
+  }
+
+  .rebeilion-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .rebellion-cart p {
+    font-size: 16px;
+  }
+
+  .rebellion-cart .image img {
+    width: 40px;
+  }
+
+  .rebilion-header h2 {
+    font-size: 28px;
+  }
+
+  .rebilion-header span {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+  }
+
+
+  .rebellion-carts {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .rebellion-right-section h3{
+    padding-top: 20px;
   }
 }
 
@@ -367,6 +433,77 @@
 
   .author-left-rhombus,  .author-right-rhombus{
     display: none;
+  }
+
+   /*=============JOIN THE REBELLION  Section===========*/
+    .join-rebellion-section .rebellion-content {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  .rebellion-content .rebellion-left-section,
+  .rebellion-content .rebellion-right-section {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .rebellion-content .rebellion-left-section h3,
+  .rebellion-content .rebellion-right-section h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .rebellion-content .rebellion-left-section p {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .rebellion-left-section .features-list .feature {
+    align-items: center;
+  }
+
+  .rebellion-left-section .features-list .feature span {
+    font-size: 16px;
+  }
+
+  .rebeilion-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .rebellion-cart p {
+    font-size: 16px;
+  }
+
+  .rebellion-cart .image img {
+    width: 40px;
+  }
+
+  .rebilion-header h2 {
+    font-size: 28px;
+  }
+
+  .rebilion-header span {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+  }
+
+
+  .rebellion-carts {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .rebellion-right-section h3{
+    padding-top: 20px;
   }
 }
 
