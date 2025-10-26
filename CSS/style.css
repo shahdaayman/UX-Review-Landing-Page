@@ -74,11 +74,9 @@ nav .container {
   height: 140px;
   background-color: #ffc131;
   transform: rotate(-20deg);
-  margin-left: 60px;
-  margin-right: 100px;
   border-radius: 1px;
   position: absolute;
-  left: -28px;
+  left: -145px;
 }
 
 .author-right-rhombus {
@@ -118,6 +116,10 @@ nav .links ul {
   gap: 10px;
 }
 
+nav .links ul li a:hover {
+  color: #ffc131;
+}
+
 nav .links i {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.138);
@@ -130,6 +132,10 @@ nav .right-section button {
   font-weight: bold;
   font-size: 18px;
   border-radius: 20px;
+  transition: transform 0.1s ease;
+}
+nav .right-section button:hover {
+  transform: translate(3px, 3px);
 }
 
 /*==============================Hero Section CSS========================= */
@@ -220,11 +226,13 @@ nav .right-section button {
 }
 
 .hero-btns {
-  transition: transform 0.3s ease;
+  transition: all 5s ease;
 }
 
-.hero-btns:hover .btn-start-reading {
-  transform: scale(0.5);
+.hero-btns .btn-start-reading:hover,
+.btn-watch-intro:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 #000;
 }
 
 .hero-content .btn-start-reading img,
@@ -273,7 +281,7 @@ nav .right-section button {
 }
 
 .hero-image:hover {
-  transform: scale(1.1) rotate(5deg);
+  transform: scale(1.01) rotate(5deg);
 }
 
 .hero-image .featured {
@@ -317,6 +325,18 @@ nav .right-section button {
 
 .latest-article-section .left-section .fresh {
   transform: rotate(5deg);
+}
+
+.article-info h2.tech-color:hover {
+  color: red;
+}
+
+.article-info h2.design-color:hover {
+  color: #2b7fff;
+}
+
+.article-info h2.culture-color:hover {
+  color: #ad46ff;
 }
 
 .latest-article {
@@ -418,6 +438,13 @@ nav .right-section button {
   color: red;
 }
 
+.latest-article-section .left-section .latest-article {
+  transition: all 0.5s ease;
+}
+
+.latest-article-section .left-section .latest-article:hover {
+  transform: scale(1.01);
+}
 .latest-article-section .left-section .load-more-btn,
 .rebeilion-btn {
   display: flex;
@@ -434,6 +461,13 @@ nav .right-section button {
   font-size: 24px;
   font-weight: 600;
   box-shadow: 5px 5px #000;
+  transition: all 0.25s ease;
+}
+
+.latest-article-section .left-section .load-more-btn button:hover,
+.rebeilion-btn:hover {
+  transform: translate(5px, 5px);
+  box-shadow: 0 0 #000;
 }
 
 .latest-article-section .container {
@@ -442,7 +476,7 @@ nav .right-section button {
 
 /*===right section=== */
 .latest-article-section .container .right-section {
-  width: 50%;
+  width: 60%;
   margin-left: 30px;
   position: sticky;
   top: 20px;
@@ -505,6 +539,21 @@ nav .right-section button {
   font-weight: bolder;
 }
 
+.trending-now .details .d1-color:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.trending-now .details .d2-color:hover {
+  color: #2b7fff;
+  cursor: pointer;
+}
+
+.trending-now .details .d3-color:hover {
+  color: #ad46ff;
+  cursor: pointer;
+}
+
 .right-section .trending-now .content .details span {
   font-size: 14px;
   color: #00000077;
@@ -529,22 +578,62 @@ nav .right-section button {
 
 .categories-box .tech {
   background-color: #fff8b0;
+  transition: all 0.3s ease;
+}
+
+.categories-box .tech:hover {
+  background-color: #ffdf20;
+  box-shadow: 5px 5px #000;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .categories-box .design {
   background-color: #d6f5e3;
+  transition: all 0.3s ease;
+}
+
+.categories-box .design:hover {
+  background-color: #7bf1a8;
+  box-shadow: 5px 5px #000;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .categories-box .culture {
   background-color: #f8e2ef;
+  transition: all 0.3s ease;
+}
+
+.categories-box .culture:hover {
+  background-color: #fda5d5;
+  box-shadow: 5px 5px #000;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .categories-box .opinion {
   background-color: #dce7fd;
+  transition: all 0.3s ease;
+}
+
+.categories-box .opinion:hover {
+  background-color: #8ec5ff;
+  box-shadow: 5px 5px #000;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .categories-box .tutorials {
   background-color: #ebddfc;
+  transition: all 0.3s ease;
+}
+
+.categories-box .tutorials:hover {
+  background-color: #dab2ff;
+  box-shadow: 5px 5px #000;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .categories-box {
@@ -608,6 +697,15 @@ nav .right-section button {
   padding: 40px;
   box-shadow: 5px 5px #000;
   margin-left: 20px;
+  transition: transform 0.3s ease;
+}
+
+.meet-author-section .carts .one {
+  position: relative;
+}
+
+.meet-author-section .carts .cart:hover {
+  transform: scale(1.02);
 }
 
 .meet-author-section .carts .cart .badge {
@@ -657,6 +755,18 @@ nav .right-section button {
   text-shadow: 1px 1px #000;
 }
 
+.meet-author-section .carts .cart h3.alex:hover {
+  color: #e7000b;
+}
+
+.meet-author-section .carts .cart h3.arnold:hover {
+  color: #2b7fff;
+}
+
+.meet-author-section .carts .cart h3.mike:hover {
+  color: #ad46ff;
+}
+
 .meet-author-section .carts .cart span.job {
   display: flex;
   justify-content: center;
@@ -698,6 +808,21 @@ nav .right-section button {
   color: #fff;
   padding: 20px 30px;
   margin-right: 10px;
+}
+
+.meet-author-section .carts .cart .social-icons .twitter:hover {
+  background-color: #1da1f2;
+  border: 1px solid #000;
+}
+
+.meet-author-section .carts .cart .social-icons .linkedin:hover {
+  background-color: #155dfc;
+  border: 1px solid #000;
+}
+
+.meet-author-section .carts .cart .social-icons .instagram:hover {
+  background-color: #e60076;
+  border: 1px solid #000;
 }
 
 /*========================MEET THE AUTHORS Section==================*/
@@ -834,14 +959,13 @@ nav .right-section button {
   background-color: #faf5ff;
 }
 
-
 /*======================Footer Section======================= */
-footer{
+footer {
   background-color: #000;
   color: #fff;
 }
 
-footer .content{
+footer .content {
   display: flex;
   padding-top: 30px;
   justify-content: space-between;
@@ -849,15 +973,15 @@ footer .content{
   padding-bottom: 50px;
 }
 
-.footer-ux-review{
+.footer-ux-review {
   width: 40%;
 }
-.footer-ux-review .ux-review-logo{
+.footer-ux-review .ux-review-logo {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.ux-review-logo i{
+.ux-review-logo i {
   background-color: #fff;
   padding: 15px 30px;
   display: flex;
@@ -867,102 +991,122 @@ footer .content{
   font-size: 20px;
 }
 
-.ux-review-logo span, .categories span, .newsletter span{
+.ux-review-logo span,
+.categories span,
+.newsletter span {
   font-weight: bolder;
   text-shadow: 1px 1px #fff;
 }
 
-.ux-review-logo span{
+.ux-review-logo span {
   font-size: 28px;
 }
 
-.categories span, .newsletter span{
+.categories span,
+.newsletter span {
   font-size: 24px;
 }
 
-.footer-ux-review p{
+.footer-ux-review p {
   margin-top: 20px;
   text-align: left;
   font-size: 20px;
 }
 
-.categories a, .copyrights a{
+.categories a,
+.copyrights a {
   color: #fff;
 }
 
-.categories ul{
+.categories ul {
   margin-top: 20px;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 18px;
 }
 
-.categories ul li, .newsletter p{
+.categories ul li,
+.newsletter p {
   margin-top: 20px;
 }
 
-.newsletter{
+.categories ul li a:hover {
+  color: #ffd230;
+}
+
+.newsletter {
   width: 33.333%;
 }
 
-.newsletter span{
- display: block;
+.newsletter span {
+  display: block;
 }
 
-.newsletter p{
- line-height: 1.8;
- font-size: 18px;
- margin-bottom: 20px;
+.newsletter p {
+  line-height: 1.8;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.newsletter input{
+.newsletter input {
   display: block;
   width: 385px;
   padding: 15px;
   background-color: #000;
   border: 1px #fff solid;
   margin-bottom: 20px;
+  color: #fff;
+  font-size: 16px;
 }
 
-.newsletter input::placeholder{
+.newsletter input:focus {
+  border-color: yellow;
+  outline: none;
+}
+
+.newsletter input::placeholder {
   font-size: 18px;
   text-transform: uppercase;
   color: gray;
 }
 
-.newsletter button{
+.newsletter button {
   width: 385px;
   padding: 15px;
-  background-color: #FFD230;
+  background-color: #ffdf20;
   margin-bottom: 20px;
   color: #000;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+  transition: transform 0.5s ease;
 }
 
-.copyrights{
+.newsletter button:hover {
+  background-color: #ffd230;
+  transform: translate(3px, 3px);
+}
+
+.copyrights {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
   padding-bottom: 70px;
 }
 
-.copyrights span{
+.copyrights span {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
 }
 
-.copyrights ul{
+.copyrights ul {
   display: flex;
   gap: 10px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-
-
-
-
-
+.copyrights ul li a:hover {
+  color: #ffd230;
+}

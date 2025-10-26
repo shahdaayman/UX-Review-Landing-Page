@@ -20,8 +20,8 @@
 } */
 
 /* ===========================Media Query============================= */
-@media screen and (max-width: 767px){
-/*==========Header Section=========== */
+@media screen and (max-width: 767px) {
+  /*==========Header Section=========== */
   nav .container {
     flex-direction: column;
     left: 0;
@@ -31,15 +31,15 @@
 
   nav .links ul {
     display: none;
-}
+  }
 
   nav .right-section button {
     display: none;
-}
+  }
 
   .hero {
     height: auto;
-    padding-top: 100px; 
+    padding-top: 100px;
   }
 
   .hero .container {
@@ -84,7 +84,7 @@
   }
 
   /*=============Latest Article Section===========*/
-    .latest-article-section .container {
+  .latest-article-section .container {
     flex-direction: column;
     align-items: center;
   }
@@ -132,7 +132,7 @@
     padding: 10px 20px;
   }
 
-.latest-article-section .container .right-section{
+  .latest-article-section .container .right-section {
     width: 100%;
     position: static;
     margin-left: 0;
@@ -153,10 +153,10 @@
 
   .right-section .trending-now .content .details p {
     font-size: 16px;
-  } 
+  }
 
   /*=============Meet The Author Section===========*/
-   .meet-author-section .author-header h2 {
+  .meet-author-section .author-header h2 {
     font-size: 28px;
   }
 
@@ -193,12 +193,13 @@
     margin-right: 6px;
   }
 
-  .author-left-rhombus,  .author-right-rhombus{
+  .author-left-rhombus,
+  .author-right-rhombus {
     display: none;
   }
 
   /*=============JOIN THE REBELLION  Section===========*/
-    .join-rebellion-section .rebellion-content {
+  .join-rebellion-section .rebellion-content {
     flex-direction: column;
     gap: 30px;
     margin-top: 60px;
@@ -257,27 +258,24 @@
     display: block;
   }
 
-
   .rebellion-carts {
     width: 90%;
     margin: 0 auto;
   }
 
-  .rebellion-right-section h3{
+  .rebellion-right-section h3 {
     padding-top: 20px;
   }
 
-
-
   /*=============Footer Section===========*/
-    footer .content {
+  footer .content {
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding-bottom: 30px;
   }
 
-  .ux-review-logo{
+  .ux-review-logo {
     justify-content: center;
   }
 
@@ -327,8 +325,8 @@
 
 /*================================================================================*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-/*==========Header Section=========== */
- nav .container {
+  /*==========Header Section=========== */
+  nav .container {
     flex-direction: column;
     left: 0;
     width: 100%;
@@ -337,13 +335,13 @@
 
   nav .links ul {
     display: none;
-}
+  }
 
   nav .right-section button {
     display: none;
-}
+  }
 
-    .hero {
+  .hero {
     height: auto;
   }
 
@@ -372,10 +370,9 @@
     width: 45%;
   }
 
-    .left-rhombus{
-        margin-top: 100px;
-    }
-
+  .left-rhombus {
+    margin-top: 100px;
+  }
 
   /*=============Latest Article Section===========*/
   .latest-article-section .container {
@@ -426,7 +423,7 @@
     padding: 10px 20px;
   }
 
-.latest-article-section .container .right-section{
+  .latest-article-section .container .right-section {
     width: 100%;
     position: static;
     margin-left: 0;
@@ -447,8 +444,7 @@
 
   .right-section .trending-now .content .details p {
     font-size: 16px;
-  } 
-
+  }
 
   /*=============Meet The Author Section===========*/
   .meet-author-section .author-header h2 {
@@ -488,12 +484,13 @@
     margin-right: 6px;
   }
 
-  .author-left-rhombus,  .author-right-rhombus{
+  .author-left-rhombus,
+  .author-right-rhombus {
     display: none;
   }
 
-   /*=============JOIN THE REBELLION  Section===========*/
-    .join-rebellion-section .rebellion-content {
+  /*=============JOIN THE REBELLION  Section===========*/
+  .join-rebellion-section .rebellion-content {
     flex-direction: column;
     gap: 30px;
     margin-top: 60px;
@@ -552,30 +549,28 @@
     display: block;
   }
 
-
   .rebellion-carts {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
   }
 
-  .rebellion-right-section h3{
+  .rebellion-right-section h3 {
     padding-top: 20px;
   }
 
-/*=============Footer Section===========*/
-    footer .content {
+  /*=============Footer Section===========*/
+  footer .content {
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding-bottom: 30px;
   }
 
-  .ux-review-logo{
+  .ux-review-logo {
     justify-content: center;
   }
 
-  
   .footer-ux-review,
   .categories,
   .newsletter {
@@ -618,9 +613,6 @@
   }
 
   .copyrights ul {
-    /* flex-direction: column; */
     gap: 8px;
   }
-  
 }
-
