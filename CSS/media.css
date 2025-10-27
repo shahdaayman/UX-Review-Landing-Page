@@ -183,6 +183,10 @@
     font-size: 22px;
   }
 
+  .meet-author-section .carts .cart span.job {
+  font-size: 14px;
+  }
+
   .meet-author-section .carts .cart p {
     font-size: 14px;
     padding: 5px;
@@ -199,6 +203,13 @@
   }
 
   /*=============JOIN THE REBELLION  Section===========*/
+  .join-rebellion-section .rebilion-header h2 {
+    font-size: 28px;
+  }
+
+  .join-rebellion-section .rebilion-header span{
+    font-size: 14px;
+  }
   .join-rebellion-section .rebellion-content {
     flex-direction: column;
     gap: 30px;
@@ -314,7 +325,7 @@
   }
 
   .copyrights span {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .copyrights ul {
